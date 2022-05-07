@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+    #submit {
+        top: 50%; /* IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        width: 750px;
+        height: 417px;
+
+        margin-top: -208.5px; /* HALF OF THE HEIGHT */
+        margin-left: -375px; /* HALF OF THE WIDTH */
+    }
+}
+
+.image{
+    background-image: url("../../public/images/animated.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
